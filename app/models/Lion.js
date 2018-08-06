@@ -19,6 +19,8 @@ class Lion {
         if (food instanceof Warthog) {
             console.log('Yummy Pork')
             food.alive = false
+        } else {
+            console.error('sorry lions dont eat that');
 
         }
     }
